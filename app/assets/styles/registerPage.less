@@ -1,0 +1,19 @@
+//引入基础样式
+@import '_base';
+.register-page-container{background-color: #F5F5F5;
+  .register-title{height: 56px;line-height: 52px;background-color: @base-color;position: relative;
+    text-align: center;font-size: 1.7rem;color: @font-color;letter-spacing: 10px;text-indent: 10px;
+    .register-toLeft{position: absolute;top: -2px;left:0;color: @font-color;}
+  }
+  .register-form{margin-top: 20px;
+    >p{margin-bottom: 40px;
+      input{vertical-align: middle;width: 20px;height: 20px;margin-right: 20px;position: relative;top: -1px;left: 10px;}
+    }
+    >div{position: relative;
+      button{border-radius: 7px;color: @font-color;
+        width: 118px;height: 36px;font-size: .8rem;background-color: #338EE9;outline: none;border: solid 1px #338EE9;position: absolute;
+        right: 10px;top: 10px;
+      }
+    }
+  }
+}

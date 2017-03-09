@@ -1,0 +1,15 @@
+/*
+ *input输入框组件
+ */
+//引入基础样式
+@import '_base';
+.login-input-group{height: 46px;background-color: transparent;border-radius: 7px;border: solid 1px @font-color;
+  .margin-center(20px);position: relative;
+  >span{position: absolute;top: 2px;display: inline-block;width: 14%;height: 40px;line-height:40px;text-align: center;color: @font-color;font-size: 1.2rem;
+    &:nth-of-type(1){left: 0;border-right: solid 1px @font-color;}
+    &:nth-of-type(2){right: 0;}
+  }
+  >input{width: 72% !important;margin: 0 auto !important;background-color: transparent !important;border: 1px solid transparent !important;color: @font-color !important;}
+
+}
+

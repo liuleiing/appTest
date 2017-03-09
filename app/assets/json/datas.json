@@ -1,0 +1,50 @@
+{
+  "indexBrands":[{
+    "id":1,
+    "bgColor":"#FF8822",
+    "text":"周边",
+    "fontType":"icomoon icon-location2"
+  }
+  ,{
+      "id":2,
+      "bgColor":"#EA6644",
+      "text":"外卖",
+      "fontType":"icomoon icon-spoon-knife"
+    }
+  ,{
+      "id":3,
+      "bgColor":"#7687F1",
+      "text":"生活超市",
+      "fontType":"icomoon icon-cart"
+    }
+  ,{
+      "id":4,
+      "bgColor":"#F7BA5B",
+      "text":"团购",
+      "fontType":"icomoon icon-credit-card"
+    }
+  ,{
+      "id":5,
+      "bgColor":"#18B4ED",
+      "text":"积分商城",
+      "fontType":"icomoon icon-stack"
+    }
+  ,{
+      "id":6,
+      "bgColor":"#FF8822",
+      "text":"热卖",
+      "fontType":"icomoon icon-fire"
+    }
+  ,{
+      "id":7,
+      "bgColor":"#66CCEE",
+      "text":"新店推荐",
+      "fontType":"icomoon icon-library"
+    }
+  ,{
+      "id":8,
+      "bgColor":"#FF7D00",
+      "text":"活动",
+      "fontType":"icomoon icon-flag"
+    }]
+}
